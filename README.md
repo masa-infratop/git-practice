@@ -1,2 +1,2 @@
 # git-practice
-# Visual Studioが開くとか勘弁してくれよ
+# This repository was made for my practice.

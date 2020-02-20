@@ -1,2 +1,2 @@
 # git-practice
-# Visual Studioが開くとか勘弁してくれよ
+# Management of Git is the most important in team development.

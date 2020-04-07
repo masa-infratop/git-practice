@@ -1,9 +1,22 @@
-# git-practice
-# Management of Git is the most important in team development.
+#Gitコマンドまとめ
 
-pushができないとき
-# git pull --rebase origin master
-新しいbranchを作りたいとき
-# git checkout -b [branch name]
-リモート先の情報を確認したいとき
-# git remote -v
+HTML-CSSのアップデート方法
+
+	まずGitBashを開く
+	$ cd Desktop/HTML-CSS
+	$ git add [file] or git add *  : * はその階層のファイル全部を表す。
+	$ git commit -m "コメント" : コメントは "Initial" とか "Modefied_20200407"　とかがおすすめ
+	$ git push origin master
+
+
+git push origin masterが上手くいかないとき
+
+	git pull --rebase origin master
+
+ローカルのgitの状態を知りたいとき
+
+	git status
+
+接続先のGit gubが正しいか確認したいとき
+
+	git remote -v
